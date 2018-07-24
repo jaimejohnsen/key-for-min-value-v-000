@@ -8,10 +8,11 @@ def key_for_min_value(name_hash)
 # iterate over hash, save one value to compare to next iteration
 #  if the value is lower save it to compare to the rest of the values
 #   if it's lowest value save it's key name.
-    
+
     name_hash.each do |name, int|
       if int < comp_val
         lowest_val = int
+        lowest_key = name
       end
     end
   end
