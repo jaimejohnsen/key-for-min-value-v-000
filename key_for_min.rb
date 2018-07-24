@@ -6,7 +6,10 @@ def key_for_min_value(name_hash)
     nil
   else
     name_hash.each do |name, int|
-
+      comp_val = 
+      if int < comp_val
+        
+      end 
     end
   end
 end
