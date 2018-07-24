@@ -12,7 +12,8 @@ lowest_val = nil
 lowest_key = nil
     name_hash.each do |name, int|
 binding.pry
-        if int < lowest_val
+      if lowest_val == nil int < lowest_val
+      
         lowest_val = int
         lowest_key = name
       end
