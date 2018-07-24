@@ -18,5 +18,6 @@ lowest_key = nil
         lowest_key = name
       end
     end
+    lowest_key
   end
 end
