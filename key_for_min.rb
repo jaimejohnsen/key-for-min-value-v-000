@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
 #   if it's lowest value save it's key name.
 
     name_hash.each do |name, int|
-      if int < comp_val
+      if int < lowest_val
         lowest_val = int
         lowest_key = name
       end
